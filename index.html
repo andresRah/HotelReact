@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotels</title>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css" />
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/icon.min.css'>
+</head>
+<body>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui-react/0.88.2/semantic-ui-react.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui-calendar-react@latest/dist/umd/semantic-ui-calendar-react.js"></script>
+    <script src="./scripts/utils/convertDate.js" type="text/babel"></script>
+    <script src="./scripts/utils/constants.js" type="text/babel"></script>
+    <script src="./scripts/data.js" type="text/babel"></script>
+
+    <!-- #region Atoms -->
+    <script type="text/babel" src="./scripts/components/atoms/ButtonCard/index.js"></script>
+    <script type="text/babel" src="./scripts/components/atoms/BedroomsLabel/index.js"></script>
+    <script type="text/babel" src="./scripts/components/atoms/DescriptionText/index.js"></script>
+    <script type="text/babel" src="./scripts/components/atoms/PriceLabel/index.js"></script>
+    <script type="text/babel" src="./scripts/components/atoms/ImageCard/index.js"></script>
+    <script type="text/babel" src="./scripts/components/atoms/LocationLabel/index.js"></script>
+    <script type="text/babel" src="./scripts/components/atoms/DescriptionText/index.js"></script>
+    <script type="text/babel" src="./scripts/components/atoms/Title/index.js"></script>
+    <!-- #endregion Atoms -->
+
+    <!-- #region Molecules -->
+    <script type="text/babel" src="./scripts/components/molecules/CardHeader/index.js"></script>
+    <script type="text/babel" src="./scripts/components/molecules/CardBody/index.js"></script>
+    <script type="text/babel" src="./scripts/components/molecules/Card/index.js"></script>
+    <script type="text/babel" src="./scripts/components/molecules/HeaderSection/index.js"></script>
+    <script type="text/babel" src="./scripts/components/molecules/Filters/index.js"></script>
+    <!-- #endregion Molecules -->
+
+    <!-- #region Organism -->
+    <script type="text/babel" src="./scripts/components/pages/notFound.js"></script>
+    <script type="text/babel" src="./scripts/components/organisms/ListOfCards/index.js"></script>
+    <script type="text/babel" src="./scripts/components/pages/home.js"></script>
+    <!-- #endregion Organism -->
+
+    <script src="./scripts/app.js" type="text/babel"></script>
+
+    <div id="app"></div>
+</body>
+
+</html>
